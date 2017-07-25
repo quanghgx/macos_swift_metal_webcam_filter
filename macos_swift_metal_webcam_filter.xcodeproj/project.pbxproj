@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4385D4E31F27C8BE007DCCAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4385D4E21F27C8BE007DCCAF /* AppDelegate.swift */; };
+		4385D4E51F27C8BE007DCCAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4385D4E41F27C8BE007DCCAF /* ViewController.swift */; };
+		4385D4E71F27C8BE007DCCAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4385D4E61F27C8BE007DCCAF /* Assets.xcassets */; };
+		4385D4EA1F27C8BE007DCCAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4385D4E81F27C8BE007DCCAF /* Main.storyboard */; };
+		4385D4F21F27C916007DCCAF /* shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 4385D4F11F27C916007DCCAF /* shaders.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4385D4DF1F27C8BE007DCCAF /* macos_swift_metal_webcam_filter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macos_swift_metal_webcam_filter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4385D4E21F27C8BE007DCCAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4385D4E41F27C8BE007DCCAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4385D4E61F27C8BE007DCCAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4385D4E91F27C8BE007DCCAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4385D4EB1F27C8BE007DCCAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4385D4F11F27C916007DCCAF /* shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = shaders.metal; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4385D4DC1F27C8BE007DCCAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4385D4D61F27C8BE007DCCAF = {
+			isa = PBXGroup;
+			children = (
+				4385D4E11F27C8BE007DCCAF /* macos_swift_metal_webcam_filter */,
+				4385D4E01F27C8BE007DCCAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4385D4E01F27C8BE007DCCAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4385D4DF1F27C8BE007DCCAF /* macos_swift_metal_webcam_filter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4385D4E11F27C8BE007DCCAF /* macos_swift_metal_webcam_filter */ = {
+			isa = PBXGroup;
+			children = (
+				4385D4E21F27C8BE007DCCAF /* AppDelegate.swift */,
+				4385D4E41F27C8BE007DCCAF /* ViewController.swift */,
+				4385D4E61F27C8BE007DCCAF /* Assets.xcassets */,
+				4385D4E81F27C8BE007DCCAF /* Main.storyboard */,
+				4385D4EB1F27C8BE007DCCAF /* Info.plist */,
+				4385D4F11F27C916007DCCAF /* shaders.metal */,
+			);
+			path = macos_swift_metal_webcam_filter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4385D4DE1F27C8BE007DCCAF /* macos_swift_metal_webcam_filter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4385D4EE1F27C8BE007DCCAF /* Build configuration list for PBXNativeTarget "macos_swift_metal_webcam_filter" */;
+			buildPhases = (
+				4385D4DB1F27C8BE007DCCAF /* Sources */,
+				4385D4DC1F27C8BE007DCCAF /* Frameworks */,
+				4385D4DD1F27C8BE007DCCAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macos_swift_metal_webcam_filter;
+			productName = macos_swift_metal_webcam_filter;
+			productReference = 4385D4DF1F27C8BE007DCCAF /* macos_swift_metal_webcam_filter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4385D4D71F27C8BE007DCCAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Hoang Xuan Quang";
+				TargetAttributes = {
+					4385D4DE1F27C8BE007DCCAF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = F9GT8J6GYR;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4385D4DA1F27C8BE007DCCAF /* Build configuration list for PBXProject "macos_swift_metal_webcam_filter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4385D4D61F27C8BE007DCCAF;
+			productRefGroup = 4385D4E01F27C8BE007DCCAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4385D4DE1F27C8BE007DCCAF /* macos_swift_metal_webcam_filter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4385D4DD1F27C8BE007DCCAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4385D4E71F27C8BE007DCCAF /* Assets.xcassets in Resources */,
+				4385D4EA1F27C8BE007DCCAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4385D4DB1F27C8BE007DCCAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4385D4E51F27C8BE007DCCAF /* ViewController.swift in Sources */,
+				4385D4E31F27C8BE007DCCAF /* AppDelegate.swift in Sources */,
+				4385D4F21F27C916007DCCAF /* shaders.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4385D4E81F27C8BE007DCCAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4385D4E91F27C8BE007DCCAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4385D4EC1F27C8BE007DCCAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4385D4ED1F27C8BE007DCCAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		4385D4EF1F27C8BE007DCCAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F9GT8J6GYR;
+				INFOPLIST_FILE = macos_swift_metal_webcam_filter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "quanghgx.cuee.macos-swift-metal-webcam-filter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4385D4F01F27C8BE007DCCAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F9GT8J6GYR;
+				INFOPLIST_FILE = macos_swift_metal_webcam_filter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "quanghgx.cuee.macos-swift-metal-webcam-filter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4385D4DA1F27C8BE007DCCAF /* Build configuration list for PBXProject "macos_swift_metal_webcam_filter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4385D4EC1F27C8BE007DCCAF /* Debug */,
+				4385D4ED1F27C8BE007DCCAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4385D4EE1F27C8BE007DCCAF /* Build configuration list for PBXNativeTarget "macos_swift_metal_webcam_filter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4385D4EF1F27C8BE007DCCAF /* Debug */,
+				4385D4F01F27C8BE007DCCAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4385D4D71F27C8BE007DCCAF /* Project object */;
+}
