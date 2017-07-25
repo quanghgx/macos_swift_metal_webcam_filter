@@ -7,9 +7,7 @@
 //
 
 import Cocoa
-import AVKit
 import AVFoundation
-import CoreMedia
 import Metal
 import MetalKit
 
@@ -129,11 +127,9 @@ extension ViewController: MTKViewDelegate{
 
         _ = semaphore.wait(timeout: DispatchTime.distantFuture)
         autoreleasepool {
-            guard
-                let texture = texture
-                else {
-                    _ = semaphore.signal()
-                    return
+            guard let texture = texture else {
+                _ = semaphore.signal()
+                return
             }
 
             let commandBuffer = commandQueue.makeCommandBuffer()
